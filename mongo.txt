@@ -1,0 +1,12 @@
+API KEY
+QUUKIWvKCVWGf0291KLWYMS2Wi9ilsqSJev0TDOJl8YGCzg5vuPmqyUniY58D8xB
+
+var axios = require('axios');
+var data = JSON.stringify({
+    "collection": "<COLLECTION_NAME>",
+    "database": "<DATABASE_NAME>",
+    "dataSource": "Cluster0",
+    "projection": {
+        "_id": 1
+    }
+});
